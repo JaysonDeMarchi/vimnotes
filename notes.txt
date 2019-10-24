@@ -38,6 +38,22 @@ Moving/Navigating the cursor:
     <
 
 ==============================================================================
+Motions:
+    Motions are commands that move the cursor
+    `w`     - `w`ord
+    `b`     - `b`egining of the word
+    `e`     - `e`nd of the word
+    `t`     - `t`ill movees the cursor to before the next occurance of the
+              provided character
+    `t)`    - moves the cursor to the before the next occurance of the
+              character `)`
+    `T`     - like `t`ill, but moves the cursor to the character after the
+              next occurance of the provided character
+    `0`     - moves the cursor to the start of the line
+    `$`     - moves the cursor to the end of the line
+    `^`     - moves the cursor to the first non whitespace character
+
+==============================================================================
 Jumping:
     The default `:` function in normal mode is jumping.
     `:1`    - jumps to line 1.
