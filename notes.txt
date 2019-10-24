@@ -17,6 +17,9 @@ Moving content:
     `m-2`   - moves the current line visually up one row
     `m1`    - moves the current line visually to the second row in the file
               (index starts at 0)
+    `>>`    - indent the current line's content to the right one tab size.
+    `<<`    - indent the current line's content to the left one tab size.
+
 ==============================================================================
 Moving/Navigating the cursor:
     Vim supports arrow keys. `h`,`j`,`k`,`l` are also mapped to navigation
