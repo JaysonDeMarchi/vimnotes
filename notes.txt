@@ -33,3 +33,13 @@ Moving/Navigating the cursor:
         " spaces
         inoremap /**<SPACE> /**<SPACE><SPACE>*/hhh
     <
+
+==============================================================================
+Searching:
+    `/`     - `s`lash is Vim's CTRL-F.
+    `/map`  - searches for the word "map"
+    `n`     - `n`ext will jump to the next match on our current search.
+              `n` uses the cursor's current position and has no reference to
+              the previous match you jumped to.
+    `N`     - `N`prev? `N` moves to the previous match.
+
