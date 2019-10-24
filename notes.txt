@@ -92,3 +92,9 @@ Replace:
 ==============================================================================
 Regex Replace:
     `%s/original/new/g` - replaces all matches for "original" with "new"
+
+==============================================================================
+Combining Commands:
+    Vim allows users to combine comands for extra functionality
+    `dt"`   - delete the content from the cursor up to the next double quotes.
+    `y$`    - copy the content from the cursor up to the end of the line.
