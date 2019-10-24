@@ -1,6 +1,6 @@
+*notes.txt*                 My Notes                                   *notes*
 " vim: filetype=help foldmethod=marker modifiable noreadonly
 
-                                                                       *notes*
 ==============================================================================
 Deleting:
     `x`     - deletes the current character
