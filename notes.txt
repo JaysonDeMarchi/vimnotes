@@ -35,6 +35,12 @@ Moving/Navigating the cursor:
     <
 
 ==============================================================================
+Jumping:
+    The default `:` function in normal mode is jumping.
+    `:1`    - jumps to line 1.
+    `G`     - `G`o down to the bottom of the file. Jumps to the end of file.
+
+==============================================================================
 Searching:
     `/`     - `s`lash is Vim's CTRL-F.
     `/map`  - searches for the word "map"
