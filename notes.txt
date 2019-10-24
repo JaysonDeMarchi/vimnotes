@@ -1,0 +1,35 @@
+" vim: filetype=help foldmethod=marker modifiable noreadonly
+
+                                                                       *notes*
+==============================================================================
+Deleting:
+    `x`     - deletes the current character
+    `dd`    - deletes the current line
+
+==============================================================================
+Moving content:
+    `m`     -  `m`ark uses the file line index to determine where to move the
+                current line. For better visualization when moving content
+                enable line numbers (`:se number`)
+
+    `m+1`   - moves the current line visually down one row (but up one in the
+              index)
+    `m-2`   - moves the current line visually up one row
+    `m1`    - moves the current line visually to the second row in the file
+              (index starts at 0)
+==============================================================================
+Moving/Navigating the cursor:
+    Vim supports arrow keys. `h`,`j`,`k`,`l` are also mapped to navigation
+    
+    `h`     - `<LEFT>`
+    `j`     - `<DOWN>`
+    `k`     - `<UP>`
+    `l`     - `<RIGHT>`
+
+    These mappings are more useful when writing commands than in practical use
+    since they take up less space.
+    e.g. >
+        " Creates a comment block, `/**  */`, with the cursor between the
+        " spaces
+        inoremap /**<SPACE> /**<SPACE><SPACE>*/hhh
+    <
