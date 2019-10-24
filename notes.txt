@@ -58,3 +58,8 @@ Copy/Pasting:
     `p`     - `p`ut or Vim's paste. `p` will take whatever the last edit made
               in normal mode, so if you copy a line (`yy`), delete a line
               (`dd`), then paste the line you will paste the deleted line.
+
+==============================================================================
+Undo/Redo:
+    `u`     - `u`ndo
+    `red`   - `red`o
