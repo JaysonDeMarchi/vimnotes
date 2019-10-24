@@ -63,3 +63,13 @@ Copy/Pasting:
 Undo/Redo:
     `u`     - `u`ndo
     `red`   - `red`o
+
+==============================================================================
+Replace:
+    `r`     - `r`eplace. Will replace the current character under the cursor
+              with the next character you enter. This can work with visual mode
+              allowing you to replace entire blocks with a single character.
+
+==============================================================================
+Regex Replace:
+    `%s/original/new/g` - replaces all matches for "original" with "new"
