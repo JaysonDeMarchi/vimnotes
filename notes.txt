@@ -77,6 +77,8 @@ Copy/Pasting:
     `p`     - `p`ut or Vim's paste. `p` will take whatever the last edit made
               in normal mode, so if you copy a line (`yy`), delete a line
               (`dd`), then paste the line you will paste the deleted line.
+    "+y   - copies the current highlighted text from visual mode to the clip
+              board.
 
 ==============================================================================
 Undo/Redo:
